@@ -3,6 +3,12 @@ Bundler.require
 
 get "/" do
 
-  return "Dis is my JAAAAAM"
+ erb :hello
+
+end
+
+get "/worlds" do
+
+  erb :worlds
 
 end
